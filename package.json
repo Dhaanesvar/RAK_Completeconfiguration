@@ -1,0 +1,20 @@
+{
+  "name": "lorawan_esp32-main",
+  "version": "1.0.0",
+  "description": "#### ESP32 persistence handling for RadioLib LoRaWAN endpoints",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemailer": "^8.0.5",
+    "socket.io": "^4.8.3"
+  }
+}
