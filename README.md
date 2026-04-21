@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LoRaWAN_ESP32
 
 #### ESP32 persistence handling for RadioLib LoRaWAN endpoints
@@ -231,3 +232,6 @@ Much of the documentation above will be self-explanatory. The [managed_provision
 #### Starting over
 
 If you're developing and want to test provisioning with new data, or you lost the 'nonces' (the intra-session state) because of a crash/reset at an inopportune moment; the easiest way to forget your provisioning data (using Arduino IDE) is to enable the "Tools / Erase all flash before sketch upload" option. Don't forget to turn that back off or you'll be wiping your provisioning and session data each time. If you're developing something for other people to use, you could maybe detect a button held during boot or a very long button press to execute `persist.wipe()` and then reboot to revert to the unprovisioned state.
+=======
+# RAK_Completeconfiguration
+>>>>>>> 212bf9391b070e6f1901ce1799c7c78030adf9e2
